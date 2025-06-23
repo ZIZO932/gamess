@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Game Genres</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header>
+<h1>Game Genres</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="explore.html">Explore</a>
+</nav>
+</header>
+<section class="faq">
+<h2>Popular Game Genres</h2>
+<div class="accordion">
+<div class="item">
+<button class="toggle" onclick="highlightGenre(this)">Action-Adventure</button>
+<div class="content" onmouseover="highlightFAQ(this)" onclick="trackGenreView(this)">
+Epic stories, exploration, and combat like in Ghost of Tsushima.
+</div>
+</div>
+<div class="item">
+<button class="toggle" onclick="highlightGenre(this)">RPG</button>
+<div class="content" onmouseover="highlightFAQ(this)" onclick="trackGenreView(this)">
+Character progression, deep stories, and immersive worlds.
+</div>
+</div>
+<div class="item">
+<button class="toggle" onclick="highlightGenre(this)">FPS</button>
+<div class="content" onmouseover="highlightFAQ(this)" onclick="trackGenreView(this)">
+First-person perspective, fast-paced combat, and precision shooting.
+</div>
+</div>
+<div class="item">
+<button class="toggle" onclick="highlightGenre(this)">Strategy</button>
+<div class="content" onmouseover="highlightFAQ(this)" onclick="trackGenreView(this)">
+Tactical decision-making, resource management, and long-term planning.
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<p>Discover your next adventure - Game Hub</p>
+</footer>
+
+</body>
+</html>

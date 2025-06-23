@@ -1,0 +1,132 @@
+body {
+margin: 0;
+font-family: "Verdana", sans-serif;
+background: #121212; /* Darker background for better game immersion */
+color: #ffffff;
+}
+
+header {
+background-color: #1e1e1e; /* Slightly lighter than body for contrast */
+padding: 25px;
+text-align: center;
+border-bottom: 1px solid #333; /* Subtle separation */
+}
+
+nav a {
+color: #ff5555; /* Vibrant red for links */
+margin: 0 12px;
+font-weight: bold;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+nav a:hover{
+  color: #ff9999; /* Lighter red on hover */
+}
+
+.intro {
+text-align: center;
+padding: 40px;
+}
+
+.main-img {
+width: 60%;
+max-width: 500px;
+margin-top: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(255, 85, 85, 0.3); /* Red tinted shadow */
+}
+
+.btn-group {
+margin-top: 25px;
+}
+
+.btn-group button {
+padding: 10px 20px;
+margin: 8px;
+background-color: #ff5555; /* Matching red theme */
+border: none;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.btn-group button:hover {
+background-color: #ff3333; /* Darker red on hover */
+transform: translateY(-2px);
+}
+
+.blog-area {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 30px;
+gap: 25px;
+}
+
+.blog-card {
+background: #1e1e1e;
+border: 1px solid #333;
+padding: 20px;
+width: 260px;
+border-radius: 10px;
+transition: all 0.3s ease;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.blog-card:hover {
+transform: scale(1.05);
+border-color: #ff5555; /* Red border on hover */
+}
+
+.faq {
+max-width: 650px;
+margin: 50px auto;
+padding: 0 20px;
+}
+
+.accordion .item {
+margin-bottom: 12px;
+}
+
+.toggle {
+background: #333;
+border-radius: 10px;
+border: 1px solid #444;
+color: white;
+font-size: 16px;
+padding: 15px;
+width: 100%;
+text-align: left;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.toggle:hover {
+background: #444;
+}
+
+.content {
+display: none;
+background: #252525;
+padding: 15px;
+border-radius: 0 0 10px 10px;
+font-size: 15px;
+margin-top: -5px;
+border-left: 1px solid #ff5555;
+border-right: 1px solid #ff5555;
+border-bottom: 1px solid #ff5555;
+}
+
+footer {
+background: #1e1e1e;
+text-align: center;
+padding: 20px;
+margin-top: 60px;
+border-top: 1px solid #333;
+}
+
+#musicImg{
+  margin: auto;
+}
